@@ -162,7 +162,7 @@ header .fa-bars{
     background-blend-mode: hard-light;
     background-size: contain;
     background-position: center;
-    
+    opacity: 0.4;
 }
 
 .home .content{
@@ -171,12 +171,12 @@ header .fa-bars{
 
 .home .content h3{
     font-size: 7rem;
-    color:#186d8b;
+    color:#ae00ff;
 }
 
 .home .content span{
     font-size: 4rem;
-    color:#acc6d0;
+    color:#785a86;
     padding:1rem 0;
     line-height: 1.5;
 }
@@ -537,7 +537,7 @@ header .fa-bars{
 }
 
 .footer .box-container .box a:hover{
-    color:cyan;
+    color:rgb(25, 0, 255);
     text-decoration: underline;
 }
 
