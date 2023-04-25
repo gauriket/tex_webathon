@@ -70,7 +70,7 @@ header .logo{
 }
 
 header .logo span{
-    color:cyan;
+    color:#ae00ff;
 }
 
 header .navbar a{
@@ -80,7 +80,7 @@ header .navbar a{
 }
 
 header .navbar a:hover{
-    color:#ae00af;
+    color:#ae00ff;
 }
 
 
@@ -91,7 +91,7 @@ header .icons a{
 }
 
 header .icons a:hover{
-    color:#ae00af;
+    color: white;
 }
 
 header .group {
@@ -99,7 +99,7 @@ header .group {
     line-height: 28px;
     align-items: center;
     position: relative;
-    width: 250px;
+    width: 500px;
    }
    
 header .input {
@@ -240,13 +240,13 @@ header .fa-bars{
   
   .about .Description {
     border-color: #141414;
-    background-color: #414141;
     transform: translate(5px, 6px);
     width: 180px;
     height: 130px;
     border-radius: 5px;
+    
   }
-  
+
   /*______Social Media______*/
   .about .social-media:before {
     content: " ";
