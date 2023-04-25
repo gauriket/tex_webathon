@@ -1,5 +1,5 @@
 *{
-    font-family: 'poppins' ,sans-serif;
+    font-family: 'Courier New', monospace;
 }
 body{
     background-image: url("Untitled design (2).png");
@@ -33,7 +33,7 @@ span{
 }
 header{
     color: #fff;
-    font-size: 40px;
+    font-size: 35px;
     display: flex;
     justify-content: center;
     padding: 10px 0 10px 0;
