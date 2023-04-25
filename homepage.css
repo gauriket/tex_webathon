@@ -191,7 +191,16 @@ header .fa-bars{
 .home .content img{
     position: relative;
 }
+.about .heading{
+padding: 0 10px;
+text-align: left;
+}
+.about{
+float: left;
+width: 25%;
+padding:0 40px;
 
+}
 .about .card {
     width: 190px;
     height: 254px;
