@@ -191,8 +191,10 @@ header .fa-bars{
 .home .content img{
     position: relative;
 }
-.home .Description{
-    object-fit:cover ;
+.about .Description img{
+    width: 180px;
+    height: 130px;
+    object-fit: cover;
 }
 .about .heading{
 padding: 0 10px;
