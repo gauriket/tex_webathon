@@ -80,7 +80,7 @@ header .navbar a{
 }
 
 header .navbar a:hover{
-    color:cyan;
+    color:#ae00af;
 }
 
 
@@ -91,7 +91,7 @@ header .icons a{
 }
 
 header .icons a:hover{
-    color:cyan;
+    color:#ae00af;
 }
 
 header .group {
@@ -201,7 +201,7 @@ header .fa-bars{
   
   .about .imge {
     height: 70px;
-    background-color: #ff5858;
+    background-color: #ae00af;
   }
   
   .about .imge .Usericon {
@@ -268,7 +268,7 @@ header .fa-bars{
   }
   
   .about .social-media a svg {
-    color: #ff5858;
+    color: #ae00af;
     transform: translatex(25px) translateY(20px);
     width: 20px;
     fill: currentColor;
