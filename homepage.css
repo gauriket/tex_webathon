@@ -40,8 +40,8 @@ section{
 .btn{
     display: inline-block;
     margin-top: 1rem;
-    border-radius: 5rem;
-    background:rgb(15, 145, 232);
+    border-radius: 10rem;
+    background:#ae00ff;
     color:#fff;
     padding:.9rem 3.5rem;
     cursor: pointer;
