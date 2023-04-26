@@ -153,11 +153,11 @@ header .fa-bars{
     display: flex;
     align-items: center;
     min-height: 89.5rem;
-    background:url("74a5f86475469a3f3db4002ef7725b29.jpg");
+    background:url("WhatsApp\ Image\ 2023-04-26\ at\ 15.34.28.jpg");
     background-blend-mode: hard-light;
     background-size: contain;
     background-position: center;
-    opacity: 0.4;
+    opacity: 0.8;
 }
 
 .home .content{
@@ -165,8 +165,12 @@ header .fa-bars{
 }
 
 .home .content h3{
-    font-size: 7rem;
+    font-size: 12rem;
     color:#ae00ff;
+}
+.home .content h2{
+    font-size: 3rem;
+    color:#ff90e8;
 }
 
 .home .content .row{
