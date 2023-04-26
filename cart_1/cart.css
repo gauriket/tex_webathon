@@ -1,8 +1,13 @@
 
 :root{
-  --pink:#143642;
+  
 }
-
+body{
+  background: #212121;
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+}
 *{
   margin:0; padding:0;
   box-sizing: border-box;
@@ -11,6 +16,14 @@
   text-decoration: none;
   text-transform: capitalize;
   transition: .2s linear;
+}
+
+header{
+  color: #fff;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 10px 0;
 }
 
 html{
@@ -22,6 +35,111 @@ html{
 
 section{
   padding:2rem 9%;
+}
+.heading .row{
+  color: #143642;
+}
+
+header{
+  position: fixed;
+  top:0; left:0; right:0;
+  padding:2rem 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+header .logo{
+  font-size: 4rem;
+  color:#785a86;
+  font-weight: bolder;
+}
+
+header .logo .row{
+  color:#ae00ff;
+}
+
+header .navbar a{
+  font-size: 2rem;
+  padding:0 1.5rem;
+  color:white;
+}
+
+header .navbar a:hover{
+  color:#ae00ff;
+}
+
+
+header .icons a{
+  font-size: 2.5rem;
+  color:white;
+  margin-left: 1.5rem;
+}
+
+header .icons a:hover{
+  color: white;
+}
+
+header .group {
+  display: flex;
+  line-height: 28px;
+  align-items: center;
+  position: relative;
+  width: 500px;
+ }
+ 
+header .input {
+  width: 100%;
+  height: 40px;
+  line-height: 28px;
+  padding: 0 1rem;
+  padding-left: 2.5rem;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  outline: none;
+  background-color: #f3f3f4;
+  color: #0d0c22;
+  transition: .3s ease;
+ }
+ 
+header .input::placeholder {
+  color: #9e9ea7;
+ }
+ 
+header .input:focus, input:hover {
+  outline: none;
+  border-color: rgba(234,76,137,0.4);
+  background-color: #fff;
+  box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+ }
+ 
+header .icon {
+  position: absolute;
+  left: 1rem;
+  fill: #9e9ea7;
+  width: 1rem;
+  height: 1rem;
+ }
+ 
+ 
+ 
+ 
+ 
+
+header #toggler{
+  display: none;
+}
+
+header .fa-bars{
+  font-size: 3rem;
+  color:#333;
+  border-radius: .5rem;
+  padding:.5rem 1.5rem;
+  cursor: pointer;
+  border:.1rem solid rgba(0,0,0,.3);
+  display: none;
 }
 
 .heading{
@@ -180,6 +298,51 @@ input[type=file]::file-selector-button:hover {
 .drop-container:hover .drop-title {
   color: #222;
 }
+.contact .row .card {
+  width: 500px;
+  height: 473px;
+  border-radius: 4px;
+  background: #212121;
+  display: flex;
+  gap: 5px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left:1em;
+  padding-right:1em;
+}
+
+.contact .row .card p {
+  height: 100%;
+  flex: 1;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all .5s;
+  background: #212121;
+  border: 1px solid #ff5a91;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .row .card p:hover {
+  flex: 4;
+}
+
+.contact .row .card p span {
+  width: 30em;
+  padding: .5em;
+  text-align: center;
+  transform: rotate(-90deg);
+  transition: all .5s;
+  text-transform: uppercase;
+  color: #ff568e;
+  letter-spacing: .1em;
+}
+
+.contact .row .card p:hover span {
+  transform: rotate(0);
+}
 
 .drop-title {
   color: #444;
@@ -200,3 +363,61 @@ input[type=file]::file-selector-button:hover {
   text-transform: capitalize;
   transition: .2s linear;
 }
+
+.contact .row{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap:1.5rem;
+  align-items: center;
+  float:left;
+}
+
+.contact .row form{
+  flex:1 1 42rem;
+  padding:2.5rem 2.5rem;
+  box-shadow: 0 .5rem 1.5rem #ae00af(0,0,0,.1);
+  border:.0.5rem solid #ae00ff(0,0,0,.1);
+  background: #b366b3;
+  border-radius: 5rem;
+  height: 70%;
+  opacity: 0.7;
+}
+.card2 {
+  float:right;
+  margin-left: 120px;
+  width: 370px;
+  height: 424px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.212);
+  background: #fff;
+  display: flex;
+  border-radius: 20px;
+  justify-content: center;
+  position: relative;
+  transition: all .4s;
+ }
+ 
+ .card2::before {
+  content: 'Proceed to Pay';
+  letter-spacing: 0.2em;
+  position: absolute;
+  bottom: 8px;
+  left: 20px;
+  color: rgb(51, 51, 51);
+  font-size: 2em;
+  font-weight: 500;
+ }
+ 
+ .card2 div {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.212);
+  cursor: pointer;
+  z-index: 10;
+  transition: all .4s;
+  background-color: #fff;
+ }
+ 
+ .card2:hover div {
+  transform: translateY(-50px);
+ }

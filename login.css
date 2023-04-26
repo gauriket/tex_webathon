@@ -2,11 +2,11 @@
     font-family: 'Courier New', monospace;
 }
 body{
-    background-image: url("Untitled design (2).png");
+    background-image: url("95ED8C43-C6BE-4066-BE13-D867BE79F62C.jpeg") ;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     
 }
 .box{
@@ -16,21 +16,25 @@ body{
     justify-content: left;
     align-items: left;
     min-height: 100vh;
+    border: #212121;
 }
+
 .container{
     width: 400px;
     display: flex;
     flex-direction: column;
     padding: 0 15px 0 15px;
-    
+
 }
+
 span{
     color: #fff;
-    font-size: small;
+    font-size: medium;
     display: flex;
     justify-content: center;
     padding: 10px 0 10px 0;
 }
+
 header{
     color: #fff;
     font-size: 35px;
@@ -50,15 +54,18 @@ header{
     background: rgba(255,255,255,0.1);
     outline: none;
 }
+
 i{
     position: relative;
     top: -33px;
     left: 17px;
     color: #fff;
 }
+
 ::-webkit-input-placeholder{
     color: #fff;
 }
+
 .submit {
     position: relative;
     padding: 1em 5em;
