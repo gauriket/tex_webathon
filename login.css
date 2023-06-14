@@ -2,7 +2,7 @@
     font-family: 'Courier New', monospace;
 }
 body{
-    background-image: url("95ED8C43-C6BE-4066-BE13-D867BE79F62C.jpeg") ;
+    background-image: url("./assets/WhatsApp\ Image\ 2023-06-13\ at\ 18.26.30.jpg") ;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -10,13 +10,14 @@ body{
     
 }
 .box{
+    width: 30%;
+    height: 33%;
     margin-top: 17rem;
     margin-left: 20rem;
     display: flex;
     justify-content: left;
     align-items: left;
-    min-height: 100vh;
-    border: #212121;
+    border: #fff;
 }
 
 .container{
@@ -72,7 +73,7 @@ i{
     outline: none;
     border: 1px solid #303030;
     background: #212121;
-    color: #ae00ff;
+    color: #778da9;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 15px;

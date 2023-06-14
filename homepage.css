@@ -27,7 +27,7 @@ section{
 .heading{
     text-align: center;
     font-size: 4rem;
-    color:#333;
+    color:#e0e1dd;
     padding:1rem;
     margin:2rem 0;
 }
@@ -41,7 +41,7 @@ section{
     display: inline-block;
     margin-top: 1rem;
     border-radius: 10rem;
-    background:#ae00ff;
+    background:#1b263b;
     color:#fff;
     padding:.9rem 3.5rem;
     cursor: pointer;
@@ -65,7 +65,7 @@ header{
 
 header .logo{
     font-size: 4rem;
-    color:#785a86;
+    color:#778da9;
     font-weight: bolder;
 }
 
@@ -153,8 +153,8 @@ header .fa-bars{
     display: flex;
     align-items: center;
     min-height: 89.5rem;
-    background:url("WhatsApp\ Image\ 2023-04-26\ at\ 15.34.28.jpg");
-    background-blend-mode: hard-light;
+    background:url("assets\ WhatsApp Image 2023-04-26 at 15.34.28.jpg");
+    background-blend-mode: color-burn;
     background-size: contain;
     background-position: center;
     opacity: 0.8;
@@ -166,11 +166,11 @@ header .fa-bars{
 
 .home .content h3{
     font-size: 12rem;
-    color:#ae00ff;
+    color:#778da9;
 }
 .home .content h2{
     font-size: 3rem;
-    color:#ff90e8;
+    color:#e0e1dd;
 }
 
 .home .content .row{
@@ -214,7 +214,7 @@ padding:0 40px;
   
   .about .imge {
     height: 70px;
-    background-color: #ae00af;
+    background-color: #415a77;
   }
   
   .about .imge .Usericon {
@@ -281,7 +281,7 @@ padding:0 40px;
   }
   
   .about .social-media a svg {
-    color: #ae00af;
+    color: #415a77;
     transform: translatex(25px) translateY(20px);
     width: 20px;
     fill: currentColor;
@@ -485,9 +485,9 @@ padding:0 40px;
 .contact .row form{
     flex:1 1 40rem;
     padding:2rem 2.5rem;
-    box-shadow: 0 .5rem 1.5rem #ae00af(0,0,0,.1);
-    border:.0.4rem solid #ae00ff(0,0,0,.1);
-    background: #b366b3;
+    box-shadow: 0 .5rem 1.5rem #415a77(0,0,0,.1);
+    border:.0.4rem solid #1b263b(0,0,0,.1);
+    background: #1b263b;
     border-radius: 5rem;
     min-height: 65rem;
     opacity: 0.7;
@@ -507,7 +507,7 @@ padding:0 40px;
 .contact .row form .box{
     padding:1rem;
     font-size: 1.7rem;
-    color:#b700ff;
+    color:#415a77;
     text-transform: none;
     border:.1rem solid rgba(0,0,0,.1);
     border-radius: 10px;
@@ -525,9 +525,9 @@ padding:0 40px;
     resize: none;
 }
 .contact .btn {
-    --bg: #ff90e8;
+    --bg: #415a77;
     --hover-bg: #000;
-    --hover-text: #ff90e8;
+    --hover-text: #415a77;
     color: #fff;
     border: 1px solid var(--bg);
     border-radius: 4px;
